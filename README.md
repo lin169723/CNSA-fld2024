@@ -9,4 +9,4 @@
 - Licensed under MIT (https://github.com/creativetimofficial/blk-design-system-react/blob/main/LICENSE.md)
 # -
 
-![Badge] [![Netlify Status](https://api.netlify.com/api/v1/badges/e29e4b19-3903-4808-a3cc-34066809dc37/deploy-status)](https://app.netlify.com/sites/cnsa-fld2/deploys)
+![Badge] (https://api.netlify.com/api/v1/badges/e29e4b19-3903-4808-a3cc-34066809dc37/deploy-status)](https://app.netlify.com/sites/cnsa-fld2/deploys)
