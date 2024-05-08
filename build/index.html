@@ -1,0 +1,76 @@
+<!--
+
+=========================================================
+* BLK Design System React - v1.2.1
+=========================================================
+
+* Product Page: https://www.creative-tim.com/product/blk-design-system-react
+* Copyright 2022 Creative Tim (https://www.creative-tim.com)
+* Licensed under MIT (https://github.com/creativetimofficial/blk-design-system-react/blob/main/LICENSE.md)
+
+* Coded by Creative Tim
+
+=========================================================
+
+* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+-->
+<!doctype html><html lang="ko" class="perfect-scrollbar-off nav-open"><head><script async src="https://www.googletagmanager.com/gtag/js?id=G-KJH5JXW9PQ"></script><script>function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","G-KJH5JXW9PQ")</script><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no"/><meta name="theme-color" content="#000000"/><link rel="manifest" href="/manifest.json"/><link rel="shortcut icon" href="/favicon.ico"/><link rel="apple-touch-icon" sizes="76x76" href="/apple-icon.png"/><link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,600,700,800" rel="stylesheet"/><link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet"/><title>CNSA 외국어과</title><script>Object.defineProperty(console,"_commandLineAPI",{get:function(){throw"콘솔을 사용할 수 없습니다."}})</script><script>var keydownCtrl = 0;
+    var keydownShift = 0;
+
+    document.onkeydown=keycheck;
+    document.onkeyup=uncheckCtrlShift;
+
+    function keycheck()
+    {
+          switch(event.keyCode){ 
+            case 123:event.keyCode='';return false; break; //F12
+            case 17:event.keyCode='';keydownCtrl=1;return false; break; //컨트롤키
+          }
+
+          if(keydownCtrl) return false;
+    }
+
+    function uncheckCtrlShift()
+    {
+          if(event.keyCode==17)      keydownCtrl=0;
+          if(event.keyCode==16)      keydownShift=0;
+    }
+
+
+      function click()
+    {
+        if ((event.button==2) || (event.button==2)) 
+        {alert('[마우스 오른쪽 클릭] / [컨트롤] / [F12] 금지 입니다.');}
+    }
+    document.onmousedown=click;
+
+    function() {
+      function detectDevTool(allow) {
+        if(isNaN(+allow)) allow = 100;
+        var start = +new Date(); 
+        debugger;
+        var end = +new Date(); 
+        if(isNaN(start) || isNaN(end) || end - start > allow) {
+          alert('개발자 도구가 감지되었습니다!');
+          document.location.href="https://www.tistory.com/";
+        }
+      }
+      if(window.attachEvent) {
+        if (document.readyState === "complete" || document.readyState === "interactive") {
+            detectDevTool();
+          window.attachEvent('onresize', detectDevTool);
+          window.attachEvent('onmousemove', detectDevTool);
+          window.attachEvent('onfocus', detectDevTool);
+          window.attachEvent('onblur', detectDevTool);
+        } else {
+            setTimeout(argument.callee, 0);
+        }
+      } else {
+        window.addEventListener('load', detectDevTool);
+        window.addEventListener('resize', detectDevTool);
+        window.addEventListener('mousemove', detectDevTool);
+        window.addEventListener('focus', detectDevTool);
+        window.addEventListener('blur', detectDevTool);
+      }
+    }</script><script defer="defer" src="/static/js/main.a903977b.js"></script><link href="/static/css/main.9192d7b3.css" rel="stylesheet"></head><body><script async src="https://www.googletagmanager.com/gtag/js?id=G-HQRQBQ68XZ"></script><script>function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","G-HQRQBQ68XZ")</script><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"></div><script>Object.defineProperty(console,"_commandLineAPI",{get:function(){throw"콘솔을 사용할 수 없습니다."}})</script><script>!function(){function e(e){isNaN(+e)&&(e=100);var t=+new Date,n=+new Date;(isNaN(t)||isNaN(n)||n-t>e)&&(document.location.href="https://www.tistory.com/")}window.attachEvent?"complete"===document.readyState||"interactive"===document.readyState?(e(),window.attachEvent("onresize",e),window.attachEvent("onmousemove",e),window.attachEvent("onfocus",e),window.attachEvent("onblur",e)):setTimeout(argument.callee,0):(window.addEventListener("load",e),window.addEventListener("resize",e),window.addEventListener("mousemove",e),window.addEventListener("focus",e),window.addEventListener("blur",e))}()</script></body></html>
