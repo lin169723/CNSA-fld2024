@@ -1,6 +1,6 @@
 ## CNSA Foreign Language Department Website
 
-- G.A 외국어과 개발부 2023
+- G.A 외국어과 개발부 2024
 
 ## Licensing
 
