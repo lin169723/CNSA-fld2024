@@ -1,10 +1,7 @@
 ## CNSA Foreign Language Department Website
 
-<<<<<<< HEAD
+
 - G.A 외국어과 개발부 2024
-=======
-- G.A 외국어과 개발부 2023
->>>>>>> 008c889 (commit message)
 
 ## Licensing
 
